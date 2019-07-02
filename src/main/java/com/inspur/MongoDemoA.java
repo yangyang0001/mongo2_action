@@ -66,8 +66,6 @@ public class MongoDemoA {
 //		DBObject sourceObject = new BasicDBObject("deptno", "1000");
 //		DBObject sourceObject = new BasicDBObject("deptno", new BasicDBObject("$gte", "1000").append("$lte", "1002"));
 
-		//必须写全了因为这里没有设置修改器$set,否则覆盖了 类似与修改多行
-//		DBObject destinObject = new BasicDBObject("deptno", "1000").append("dname", "修改后的部门名称").append("location", "北京-0");
 		//修改一个字段的数据的操作
 //		DBObject destinObject = new BasicDBObject("$set", new BasicDBObject("dname" , "修改后的部门名称00000001"));
 		//修改多个字段的数据
